@@ -2886,14 +2886,12 @@
         <ctl name="Voice Sidetone Enable" value="1" />
     </path>
 
-    <!-- MM-JohnHCChiang-VOIP audio path-00+{ -->
     <path name="speaker-voip-mic">
-        <path name="dmic1" />
+        <path name="dmic5" />
     </path>
-    <!-- MM-JohnHCChiang-VOIP audio path-00+} -->
 
     <path name="speaker-mic">
-        <path name="dmic3" />
+        <path name="dmic5" />
     </path>
 
     <path name="speaker-mic-liquid">
@@ -2941,7 +2939,7 @@
     </path>
 
     <path name="handset-mic">
-        <path name="dmic3" />
+        <path name="dmic1" />
     </path>
 
     <path name="handset-mic-db">
@@ -2967,15 +2965,15 @@
         <ctl name="SLIM TX5 MUX" value="DEC5" />
         <ctl name="DEC5 Volume" value="96" />
         <ctl name="ADC MUX5" value="DMIC" />
-        <ctl name="DMIC MUX5" value="DMIC4" />
+        <ctl name="DMIC MUX5" value="DMIC2" />
         <ctl name="SLIM TX6 MUX" value="DEC6" />
         <ctl name="DEC6 Volume" value="96" />
         <ctl name="ADC MUX6" value="DMIC" />
-        <ctl name="DMIC MUX6" value="DMIC2" />
+        <ctl name="DMIC MUX6" value="DMIC0" />
         <ctl name="SLIM TX8 MUX" value="DEC8" />
         <ctl name="DEC8 Volume" value="96" />
         <ctl name="ADC MUX8" value="DMIC" />
-        <ctl name="DMIC MUX8" value="DMIC0" />
+        <ctl name="DMIC MUX8" value="DMIC4" />
     </path>
 
     <path name="anc-handset">
@@ -3150,8 +3148,6 @@
     </path>
 
     <path name="anc-headphones">
-	<ctl name="COMP1 Switch" value="0" />
-	<ctl name="COMP2 Switch" value="0" />
         <ctl name="ANC Function" value="ON" />
         <ctl name="ANC Slot" value="0" />
         <ctl name="ADC MUX10" value="AMIC" />
@@ -3173,8 +3169,6 @@
         <ctl name="RX2 Digital Volume" value="81" />
         <ctl name="ANC HPHL Enable Switch" value="1" />
         <ctl name="ANC HPHR Enable Switch" value="1" />
-        <ctl name="HPHL Volume" value="20" />
-        <ctl name="HPHR Volume" value="20" />
     </path>
 
     <path name="speaker-and-anc-headphones">
@@ -3193,8 +3187,6 @@
     </path>
 
     <path name="voice-anc-headphones">
-	<ctl name="COMP1 Switch" value="0" />
-	<ctl name="COMP2 Switch" value="0" />
         <ctl name="ANC Function" value="ON" />
         <ctl name="ANC Slot" value="0" />
         <ctl name="ADC MUX10" value="AMIC" />
@@ -3223,13 +3215,9 @@
         <ctl name="RX2 Digital Volume" value="81" />
         <ctl name="ANC HPHL Enable Switch" value="1" />
         <ctl name="ANC HPHR Enable Switch" value="1" />
-        <ctl name="HPHL Volume" value="20" />
-        <ctl name="HPHR Volume" value="20" />
     </path>
 
     <path name="voice-anc-fb-headphones">
-	<ctl name="COMP1 Switch" value="0" />
-	<ctl name="COMP2 Switch" value="0" />
         <ctl name="ANC Function" value="ON" />
         <ctl name="ANC Slot" value="1" />
         <ctl name="ADC MUX10" value="AMIC" />
@@ -3258,8 +3246,6 @@
         <ctl name="RX2 Digital Volume" value="81" />
         <ctl name="ANC HPHL Enable Switch" value="1" />
         <ctl name="ANC HPHR Enable Switch" value="1" />
-        <ctl name="HPHL Volume" value="14" />
-        <ctl name="HPHR Volume" value="14" />
     </path>
 
     <path name="speaker-and-anc-headphones-liquid">
@@ -3360,11 +3346,11 @@
         <ctl name="SLIM TX7 MUX" value="DEC7" />
         <ctl name="DEC7 Volume" value="96" />
         <ctl name="ADC MUX7" value="DMIC" />
-        <ctl name="DMIC MUX7" value="DMIC2" />
+        <ctl name="DMIC MUX7" value="DMIC0" />
         <ctl name="SLIM TX8 MUX" value="DEC8" />
         <ctl name="DEC8 Volume" value="96" />
         <ctl name="ADC MUX8" value="DMIC" />
-        <ctl name="DMIC MUX8" value="DMIC4" />
+        <ctl name="DMIC MUX8" value="DMIC2" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
     </path>
 
@@ -3375,11 +3361,11 @@
         <ctl name="SLIM TX7 MUX" value="DEC7" />
         <ctl name="DEC7 Volume" value="96" />
         <ctl name="ADC MUX7" value="DMIC" />
-        <ctl name="DMIC MUX7" value="DMIC0" />
+        <ctl name="DMIC MUX7" value="DMIC4" />
         <ctl name="SLIM TX8 MUX" value="DEC8" />
         <ctl name="DEC8 Volume" value="96" />
         <ctl name="ADC MUX8" value="DMIC" />
-        <ctl name="DMIC MUX8" value="DMIC2" />
+        <ctl name="DMIC MUX8" value="DMIC0" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
     </path>
     <!-- MM-JohnHCChiang-Change audio path id-00+} -->

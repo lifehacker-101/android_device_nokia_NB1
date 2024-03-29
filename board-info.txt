@@ -1,1 +1,0 @@
-require board=msm8998|QC_Reference_Phone
