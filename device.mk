@@ -11,10 +11,6 @@ TARGET_NOKIA_PLATFORM := msm8998
 $(call inherit-product, device/nokia/msm8998-common/msm8998-common.mk)
 
 # Audio
-PRODUCT_PACKAGES += \
-    tinymix.vendor \
-    tinyplay.vendor
-
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/audio_configs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs.xml \
     $(DEVICE_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
@@ -76,7 +72,6 @@ PRODUCT_PACKAGES += \
     init.nb1.target.rc \
     init.fih.modemconfig.rc \
     init.fih.modemconfig.sh \
-    init.fih.smartamp_init.sh \
     init.fih.poweroff_charging.rc \
     fstab.qcom
 
