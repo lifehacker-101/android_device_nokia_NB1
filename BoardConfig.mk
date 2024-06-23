@@ -18,6 +18,9 @@ include device/nokia/msm8998-common/BoardConfigCommon.mk
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := msm8998
 
+# Screen density
+TARGET_SCREEN_DENSITY := 520
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_NB1_defconfig
 
