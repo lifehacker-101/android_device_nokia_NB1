@@ -1,1 +1,7 @@
-type fih_modemconfig, exec_type, vendor_file_type, file_type;
+type fih_modemconfig, domain;
+type fih_modemconfig_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(fih_modemconfig)
+
+allow fih_modemconfig vendor_toolbox_exec:file execute_no_trans;
+allow fih_modemconfig vendor_data_file:dir { read write open };

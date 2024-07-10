@@ -2,4 +2,4 @@
 /(vendor|system/vendor)/bin/tfa-calib                         u:object_r:tfa-calib_exec:s0
 
 # Modem config
-/(vendor|system/vendor)/bin/init\.fih\.modemconfig\.sh        u:object_r:fih_modemconfig:s0
+/(vendor|system/vendor)/bin/init\.fih\.modemconfig\.sh        u:object_r:fih_modemconfig_exec:s0
