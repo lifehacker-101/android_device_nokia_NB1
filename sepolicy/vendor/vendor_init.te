@@ -1,0 +1,1 @@
+allow vendor_init fingerprint_data_file:dir relabelto;
