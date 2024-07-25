@@ -24,7 +24,7 @@
 #include <cutils/properties.h>
 
 // System dependencies
-#include <CameraParameters.h>
+#include "CameraParameters.h"
 #include <utils/Errors.h>
 
 // Camera dependencies
